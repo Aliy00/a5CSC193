@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fancify Shamcify</title>
+    <script src="fancifymytext.js" defer></script> <!-- Use defer to ensure the script loads after the HTML -->
+</head>
+<body>
+    <h1>Fancify my Text</h1>
+    <fieldset>
+        <legend>Text</legend>
+        <textarea id="message" name="message" rows="4" cols="30" placeholder="Your text here..."></textarea>
+        <fieldset>
+            <legend>Fancify</legend>
+            <button id="text" onclick="showAlert(); makeTextBigger()">Bigger!</button>
+            <label>
+                <input type="radio" id="boring" name="button" value="BoringBetty" onchange="toggleStyles()"> BoringBetty
+            </label>
+            <label>
+                <input type="radio" id="fancy" name="button" value="FancyShmancy" onchange="toggleStyles()"> FancyShmancy
+            </label>
+            <button id="mooButton" onclick="addMoo()">Moo!</button>
+        </fieldset>
+    </fieldset>
+</body>
+</html>
+
+</html>
